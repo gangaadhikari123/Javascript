@@ -10,7 +10,7 @@ console.log(6+5)
  // data types
  let name ="Ganesh" //string
  let ag =12 //intrger
- let isLoggedIn = false //boolean
+ let ISLoggedIn = false //boolean
 let state = null;
 
  // number => 2
@@ -37,4 +37,21 @@ console.log(valueInNumber);
 // true => 1; false => 0;
 
 let IsLoggedIn = 1
-let booleanIsLoggedIn 
+let booleanIsLoggedIn = Boolean(IsLoggedIn);// true
+
+
+let isLoggedIn =""//false
+let isloggedIn = "Ganga" //true
+
+
+let someNumber =33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
+
+
+
+
+console.log (typeof undefined) //undefined
+console.log (typeof null) //object
