@@ -38,3 +38,8 @@ let myObj ={
 } 
 console.log( typeof myFunction);
 
+/*
+memeory type
+Stack (primitive) -> copies of variable
+Heap (Non-Primitive) -> original refrence 
+*/
