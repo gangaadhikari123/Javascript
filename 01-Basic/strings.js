@@ -52,3 +52,10 @@ console.log(url.includes('Hitesh'));// find out if Hitesh is present in url or n
 
 console.log(gameName.split('-'));
 
+
+// repeate
+console.log(gameName.replace("c","v"));
+
+//split 
+let str1 = "Hello World";
+
