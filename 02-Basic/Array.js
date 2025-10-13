@@ -36,3 +36,14 @@ console.log(newArr);// join and convert to string
 
 //slice and splice
 //slice is used to extract a portion of an array and return a new array 
+//splice is used to add or remove elements from an array 
+
+console.log("A", myArr);
+
+const myn1 = myArr.slice(1,3)
+
+console.log(myn1);
+console.log("B",myArr);
+
+const myn2 = myArr.splice(1,3)
+console.log(myn2);
