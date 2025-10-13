@@ -27,3 +27,12 @@ console.log(myArr);
 myArr.shift(0)
 console.log(myArr);
 
+console.log(myArr.includes(9));
+
+const newArr = myArr.join()
+
+console.log(newArr);// join and convert to string
+
+
+//slice and splice
+//slice is used to extract a portion of an array and return a new array 
