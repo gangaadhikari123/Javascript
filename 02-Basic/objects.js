@@ -38,3 +38,4 @@ jsUser.greetingTwo = function(){
 }
 console.log(jsUser.greetingTwo());// Hello js user , Ganga 
 
+//most of the time objects are taken by using .
