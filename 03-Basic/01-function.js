@@ -8,7 +8,13 @@ function myFun(){
 }
 //myFun()
 
-function addTwoNum (num1, num2){
+/*function addTwoNum (num1, num2){
     console.log (num1 + num2);
 }
 addTwoNum(4,5)
+*/
+//another way
+const number = function addtwo (num1, num2){
+    return num1 + num2 ;
+    
+}
