@@ -43,3 +43,24 @@ console.log(Object.values(tinderUser)); // for accessing all the values of tinde
 console.log(Object.entries(tinderUser)); //for accessing all the entries of tinder object which contains array of arrays for each key value pair 
 
 console.log(tinderUser.hasOwnProperty("name")); //true
+
+//destructuring
+const course ={
+    coursename : "js in hindi",
+    price :90,
+    courseInstrctor :"hit"
+}
+//console.log(course.courseInstrctor);
+
+const {courseInstrctor : inst} = course
+console.log(inst);
+
+
+
+// ApI
+
+/*{
+    name: "Ruku",
+    age : 24,
+    "gender": "female"
+}*/
