@@ -6,7 +6,7 @@ function myFun(){
     console.log("l");
     console.log("o");
 }
-//myFun()
+myFun()
 
 /*function addTwoNum (num1, num2){
     console.log (num1 + num2);
