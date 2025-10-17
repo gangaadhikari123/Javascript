@@ -18,3 +18,14 @@ const number = function addtwo (num1, num2){
     return num1 + num2 ;
     
 }
+
+function loginUser(username){
+    if (username === undefined){
+
+        console.log("Please enter a username");
+
+    }
+    return `${username} just logged in`
+}
+console.log(loginUser());
+
