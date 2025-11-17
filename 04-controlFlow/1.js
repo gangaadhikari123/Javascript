@@ -1,5 +1,6 @@
 //if statement
+// const isUserLoggedIn = true
+// if (isUserLoggedIn){
 
-if (true){
-    
-}
+// }
+
