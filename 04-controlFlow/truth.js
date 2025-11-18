@@ -23,11 +23,32 @@ else{
 
  const emptyObj ={}
  if (Object.keys(emptyObj).length === 0){
-    console.log("ob\ject is empty");
+    console.log("object is empty");
  }
 
  
 
+ // nullish coalescing operator
+
+ let val1 ;
+//  val1 = 5 ?? 10;// 5
+
+ val1 = null ?? 10;
+
+ console.log(val1);// 10
+
+
+var2 = undefined ?? 15;
+ console.log(var2);
  
+ var3 = null ?? undefined;
+ console.log(var3);
 
  
+
+ // terniary operator
+
+//  condition ? true: false 
+
+ const iceTeaPrice = 100
+ iceTeaPrice >= 80? console.log("less than 80") : console.log("more than 80");
