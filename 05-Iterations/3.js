@@ -26,6 +26,35 @@ map.set("name", "Ganga")
 map.set("age", 25)
 map.set("city", "Kathmandu")
 
-for (const [key, value] of map) {
-    console.log(`Key: ${key}, Value: ${value}`)
+// for (const [key, value] of map) {
+//     console.log(`Key: ${key}, Value: ${value}`)
+// }
+
+for (const [key, value] of map){// use [] on key so that u gate data without array
+    console.log(key, ':-', value);
+}
+
+
+// const myObject ={
+//     'gam1' : 'NFS',
+//     'gam2' : 'spiderman'
+// }
+
+// for (const [key, value] of myObject){ //this do  not works
+
+//     console.log(key, ':-', value)
+// }
+
+
+
+//for in loop
+
+
+const obj1={
+    js: 'js',
+    cpp: 'C++',
+    rb: 'rubby'
+}
+for (const key in obj1){
+    console.log(key);
 }
