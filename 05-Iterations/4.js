@@ -21,17 +21,22 @@ coding.forEach( (items, index, arr) =>{
 })
 
 
-const myCoding ={
-    {
-        languageName = "Javascript",
-        languageFileName="js"
-    },
-    {
-        languageName="python",
-        languageFileName="ppy"
-    }
-}
-myCoding.forEach((item) =>
-{
-    console.log(item.lan)
-})
+// const myCoding =({
+//     {
+//         languageName = "Javascript",
+//         languageFileName="js"
+//     },
+//     {
+//         languageName="python",
+//         languageFileName="ppy"
+//     }
+// })
+// myCoding.forEach((item) =>
+// {
+//     console.log(item.languageFileName)
+// })
+
+//for objects for in loop
+//  for array for of loop
+
+
