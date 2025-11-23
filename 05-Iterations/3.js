@@ -21,10 +21,10 @@ for ( const gret of greeting){
 
 // maps
 
-const map = new Map()
-map.set("name", "Ganga")
-map.set("age", 25)
-map.set("city", "Kathmandu")
+// const map = new Map()
+// map.set("name", "Ganga")
+// map.set("age", 25)
+// map.set("city", "Kathmandu")
 
 // for (const [key, value] of map) {
 //     console.log(`Key: ${key}, Value: ${value}`)
@@ -58,3 +58,22 @@ const obj1={
 for (const key in obj1){
     console.log(key);
 }
+
+
+const programming =["js", "rb", "py", "java"]
+for (const key in programming){
+    console.log(programming[key] );
+}
+
+
+
+// const map = new Map()
+// map.set("name", "Ganga")
+// map.set("age", 25)
+// map.set("city", "Kathmandu")
+
+// for (const key in map){
+//     console.log(key);
+// } this is not done
+
+
