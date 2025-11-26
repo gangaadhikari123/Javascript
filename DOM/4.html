@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style = "background-color: #212121; color : #fff;">
+
+    <ul class ="languages">
+        <li class ="language">JavaScript</li>
+        <li class ="language">Python</li>
+        <li class ="language">C++</li>
+        <!-- <li class ="language">Java</li>
+        <li class ="language">Ruby</li> -->
+        </ul>
+        <script>
+            function addLanguage(langName){
+                const li = document.createElement('li');
+                li.innerHTML = `${langName}`;
+                document.querySelector('.languages').appendChild(li);
+            }
+            addLanguage("typescript")
+            addLanguage("javac")
+
+
+            function addOptiLanguage(langName){
+                const li= document.createElement('li');
+                li.appendChild(document.createTextNode(langName));
+                document.querySelector('.languages').appendChild(li);
+            }
+            addOptiLanguage("GoLang");
+
+            // edit
+
+            // for replacement
+            const secondLang = document.querySelector("li:nth-child(2)")
+             const newli = document.createElement('li');
+             newli.textContent  = "Majo"
+             secondLang.replacewith(newli)
+
+
+             const firstLang = document.querySelector("li:first-child")
+             firstLang.outerHTML = '<li>Typescripter</li>'
+             
+
+             //remove
+             const lastlang = document.querySelector('li:last-child')
+             langName.remove()
+
+
+                    </script>
+</body>
+</html>
