@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //events are run sequentially in  js
+        document.getElementById('Owl').addEventListener('click', function(){
+            alert("owl clicked");
+            //, false is default as bubbling phase
+            //bubling phase means event is first captured and handled by the innermost element and then propagation to outer element .
+            //event capturing is used to specify the order of event propagation .(,true)
+
+//timestand is used for measuring the time taken by a particular event to execute 
+        
+
+//type is used to specify the type of event
+//example : click, mouseover, mouseout, keydown, keyup etc
+
+
+//target is used to specify the element that triggered the event
+//example : click, mouseover, mouseout, keydown, keyup etc
+
+
+//stop propagation is used to stop the event from propagating to other elements
+// preventDefault is used to prevent the default action of an event
+        
+}, false)
+    </script>
+</body>
+</html>
+
