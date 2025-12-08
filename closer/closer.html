@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body>
+<script>
+    // function init(){ //init is the outer function, a closure
+    //     var name = "Mozilla";// name is a local variable created by init
+    //     function displayName(){
+    //         // displayName() is the inner function, a closure
+    //         console.log(name);
+    //     }
+    //     displayName();
+    // }
+    // init();
+
+    function outer(){
+        let username = "hitesh"
+        function inner(){
+            console.log("inner",username);
+        }
+        inner()
+    }
+    outer()
+
+    console.log("Too Outer", username);
+</script>
+
+    
+</body>
+</html>
